@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E3A5DB41E37D34B00D55399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A5DB31E37D34B00D55399 /* AppDelegate.swift */; };
+		6E3A5DB61E37D34B00D55399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A5DB51E37D34B00D55399 /* ViewController.swift */; };
+		6E3A5DB91E37D34B00D55399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A5DB71E37D34B00D55399 /* Main.storyboard */; };
+		6E3A5DBC1E37D34B00D55399 /* Powder_Snow_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A5DBA1E37D34B00D55399 /* Powder_Snow_Tracker.xcdatamodeld */; };
+		6E3A5DBE1E37D34B00D55399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A5DBD1E37D34B00D55399 /* Assets.xcassets */; };
+		6E3A5DC11E37D34B00D55399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A5DBF1E37D34B00D55399 /* LaunchScreen.storyboard */; };
+		6E3A5DCC1E37D34B00D55399 /* Powder_Snow_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A5DCB1E37D34B00D55399 /* Powder_Snow_TrackerTests.swift */; };
+		6E3A5DD71E37D34B00D55399 /* Powder_Snow_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A5DD61E37D34B00D55399 /* Powder_Snow_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E3A5DC81E37D34B00D55399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3A5DA81E37D34A00D55399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3A5DAF1E37D34A00D55399;
+			remoteInfo = Powder_Snow_Tracker;
+		};
+		6E3A5DD31E37D34B00D55399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3A5DA81E37D34A00D55399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3A5DAF1E37D34A00D55399;
+			remoteInfo = Powder_Snow_Tracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E3A5DB01E37D34B00D55399 /* Powder_Snow_Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Powder_Snow_Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3A5DB31E37D34B00D55399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E3A5DB51E37D34B00D55399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E3A5DB81E37D34B00D55399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E3A5DBB1E37D34B00D55399 /* Powder_Snow_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Powder_Snow_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		6E3A5DBD1E37D34B00D55399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E3A5DC01E37D34B00D55399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E3A5DC21E37D34B00D55399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3A5DC71E37D34B00D55399 /* Powder_Snow_TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Powder_Snow_TrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3A5DCB1E37D34B00D55399 /* Powder_Snow_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powder_Snow_TrackerTests.swift; sourceTree = "<group>"; };
+		6E3A5DCD1E37D34B00D55399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3A5DD21E37D34B00D55399 /* Powder_Snow_TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Powder_Snow_TrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3A5DD61E37D34B00D55399 /* Powder_Snow_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powder_Snow_TrackerUITests.swift; sourceTree = "<group>"; };
+		6E3A5DD81E37D34B00D55399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E3A5DAD1E37D34A00D55399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A5DC41E37D34B00D55399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A5DCF1E37D34B00D55399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E3A5DA71E37D34A00D55399 = {
+			isa = PBXGroup;
+			children = (
+				6E3A5DB21E37D34B00D55399 /* Powder_Snow_Tracker */,
+				6E3A5DCA1E37D34B00D55399 /* Powder_Snow_TrackerTests */,
+				6E3A5DD51E37D34B00D55399 /* Powder_Snow_TrackerUITests */,
+				6E3A5DB11E37D34B00D55399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3A5DB11E37D34B00D55399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A5DB01E37D34B00D55399 /* Powder_Snow_Tracker.app */,
+				6E3A5DC71E37D34B00D55399 /* Powder_Snow_TrackerTests.xctest */,
+				6E3A5DD21E37D34B00D55399 /* Powder_Snow_TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3A5DB21E37D34B00D55399 /* Powder_Snow_Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A5DB31E37D34B00D55399 /* AppDelegate.swift */,
+				6E3A5DB51E37D34B00D55399 /* ViewController.swift */,
+				6E3A5DB71E37D34B00D55399 /* Main.storyboard */,
+				6E3A5DBD1E37D34B00D55399 /* Assets.xcassets */,
+				6E3A5DBF1E37D34B00D55399 /* LaunchScreen.storyboard */,
+				6E3A5DC21E37D34B00D55399 /* Info.plist */,
+				6E3A5DBA1E37D34B00D55399 /* Powder_Snow_Tracker.xcdatamodeld */,
+			);
+			path = Powder_Snow_Tracker;
+			sourceTree = "<group>";
+		};
+		6E3A5DCA1E37D34B00D55399 /* Powder_Snow_TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A5DCB1E37D34B00D55399 /* Powder_Snow_TrackerTests.swift */,
+				6E3A5DCD1E37D34B00D55399 /* Info.plist */,
+			);
+			path = Powder_Snow_TrackerTests;
+			sourceTree = "<group>";
+		};
+		6E3A5DD51E37D34B00D55399 /* Powder_Snow_TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A5DD61E37D34B00D55399 /* Powder_Snow_TrackerUITests.swift */,
+				6E3A5DD81E37D34B00D55399 /* Info.plist */,
+			);
+			path = Powder_Snow_TrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E3A5DAF1E37D34A00D55399 /* Powder_Snow_Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3A5DDB1E37D34B00D55399 /* Build configuration list for PBXNativeTarget "Powder_Snow_Tracker" */;
+			buildPhases = (
+				6E3A5DAC1E37D34A00D55399 /* Sources */,
+				6E3A5DAD1E37D34A00D55399 /* Frameworks */,
+				6E3A5DAE1E37D34A00D55399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Powder_Snow_Tracker;
+			productName = Powder_Snow_Tracker;
+			productReference = 6E3A5DB01E37D34B00D55399 /* Powder_Snow_Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E3A5DC61E37D34B00D55399 /* Powder_Snow_TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3A5DDE1E37D34B00D55399 /* Build configuration list for PBXNativeTarget "Powder_Snow_TrackerTests" */;
+			buildPhases = (
+				6E3A5DC31E37D34B00D55399 /* Sources */,
+				6E3A5DC41E37D34B00D55399 /* Frameworks */,
+				6E3A5DC51E37D34B00D55399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3A5DC91E37D34B00D55399 /* PBXTargetDependency */,
+			);
+			name = Powder_Snow_TrackerTests;
+			productName = Powder_Snow_TrackerTests;
+			productReference = 6E3A5DC71E37D34B00D55399 /* Powder_Snow_TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E3A5DD11E37D34B00D55399 /* Powder_Snow_TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3A5DE11E37D34B00D55399 /* Build configuration list for PBXNativeTarget "Powder_Snow_TrackerUITests" */;
+			buildPhases = (
+				6E3A5DCE1E37D34B00D55399 /* Sources */,
+				6E3A5DCF1E37D34B00D55399 /* Frameworks */,
+				6E3A5DD01E37D34B00D55399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3A5DD41E37D34B00D55399 /* PBXTargetDependency */,
+			);
+			name = Powder_Snow_TrackerUITests;
+			productName = Powder_Snow_TrackerUITests;
+			productReference = 6E3A5DD21E37D34B00D55399 /* Powder_Snow_TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E3A5DA81E37D34A00D55399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zachary Kouba";
+				TargetAttributes = {
+					6E3A5DAF1E37D34A00D55399 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6E3A5DC61E37D34B00D55399 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E3A5DAF1E37D34A00D55399;
+					};
+					6E3A5DD11E37D34B00D55399 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E3A5DAF1E37D34A00D55399;
+					};
+				};
+			};
+			buildConfigurationList = 6E3A5DAB1E37D34A00D55399 /* Build configuration list for PBXProject "Powder_Snow_Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E3A5DA71E37D34A00D55399;
+			productRefGroup = 6E3A5DB11E37D34B00D55399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3A5DAF1E37D34A00D55399 /* Powder_Snow_Tracker */,
+				6E3A5DC61E37D34B00D55399 /* Powder_Snow_TrackerTests */,
+				6E3A5DD11E37D34B00D55399 /* Powder_Snow_TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E3A5DAE1E37D34A00D55399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3A5DC11E37D34B00D55399 /* LaunchScreen.storyboard in Resources */,
+				6E3A5DBE1E37D34B00D55399 /* Assets.xcassets in Resources */,
+				6E3A5DB91E37D34B00D55399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A5DC51E37D34B00D55399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A5DD01E37D34B00D55399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3A5DAC1E37D34A00D55399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3A5DBC1E37D34B00D55399 /* Powder_Snow_Tracker.xcdatamodeld in Sources */,
+				6E3A5DB61E37D34B00D55399 /* ViewController.swift in Sources */,
+				6E3A5DB41E37D34B00D55399 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A5DC31E37D34B00D55399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3A5DCC1E37D34B00D55399 /* Powder_Snow_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A5DCE1E37D34B00D55399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3A5DD71E37D34B00D55399 /* Powder_Snow_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E3A5DC91E37D34B00D55399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3A5DAF1E37D34A00D55399 /* Powder_Snow_Tracker */;
+			targetProxy = 6E3A5DC81E37D34B00D55399 /* PBXContainerItemProxy */;
+		};
+		6E3A5DD41E37D34B00D55399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3A5DAF1E37D34A00D55399 /* Powder_Snow_Tracker */;
+			targetProxy = 6E3A5DD31E37D34B00D55399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E3A5DB71E37D34B00D55399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3A5DB81E37D34B00D55399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E3A5DBF1E37D34B00D55399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3A5DC01E37D34B00D55399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E3A5DD91E37D34B00D55399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3A5DDA1E37D34B00D55399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E3A5DDC1E37D34B00D55399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Powder_Snow_Tracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharykouba.Powder-Snow-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6E3A5DDD1E37D34B00D55399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Powder_Snow_Tracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharykouba.Powder-Snow-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6E3A5DDF1E37D34B00D55399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Powder_Snow_TrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharykouba.Powder-Snow-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Powder_Snow_Tracker.app/Powder_Snow_Tracker";
+			};
+			name = Debug;
+		};
+		6E3A5DE01E37D34B00D55399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Powder_Snow_TrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharykouba.Powder-Snow-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Powder_Snow_Tracker.app/Powder_Snow_Tracker";
+			};
+			name = Release;
+		};
+		6E3A5DE21E37D34B00D55399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Powder_Snow_TrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharykouba.Powder-Snow-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Powder_Snow_Tracker;
+			};
+			name = Debug;
+		};
+		6E3A5DE31E37D34B00D55399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Powder_Snow_TrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharykouba.Powder-Snow-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Powder_Snow_Tracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E3A5DAB1E37D34A00D55399 /* Build configuration list for PBXProject "Powder_Snow_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A5DD91E37D34B00D55399 /* Debug */,
+				6E3A5DDA1E37D34B00D55399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3A5DDB1E37D34B00D55399 /* Build configuration list for PBXNativeTarget "Powder_Snow_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A5DDC1E37D34B00D55399 /* Debug */,
+				6E3A5DDD1E37D34B00D55399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E3A5DDE1E37D34B00D55399 /* Build configuration list for PBXNativeTarget "Powder_Snow_TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A5DDF1E37D34B00D55399 /* Debug */,
+				6E3A5DE01E37D34B00D55399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E3A5DE11E37D34B00D55399 /* Build configuration list for PBXNativeTarget "Powder_Snow_TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A5DE21E37D34B00D55399 /* Debug */,
+				6E3A5DE31E37D34B00D55399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E3A5DBA1E37D34B00D55399 /* Powder_Snow_Tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E3A5DBB1E37D34B00D55399 /* Powder_Snow_Tracker.xcdatamodel */,
+			);
+			currentVersion = 6E3A5DBB1E37D34B00D55399 /* Powder_Snow_Tracker.xcdatamodel */;
+			path = Powder_Snow_Tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E3A5DA81E37D34A00D55399 /* Project object */;
+}
