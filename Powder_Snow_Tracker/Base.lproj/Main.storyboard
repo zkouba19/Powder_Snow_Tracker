@@ -202,7 +202,7 @@
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="MmD-tf-VYy"/>
                     <connections>
                         <outlet property="trackingButtonPressed" destination="XIj-Vj-3up" id="Rei-r2-Dpe"/>
-                        <segue destination="zHW-t3-IKs" kind="presentation" id="chE-G6-EhX"/>
+                        <segue destination="zHW-t3-IKs" kind="presentation" identifier="runDetailsSegue" id="chE-G6-EhX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RmC-G1-zeE" userLabel="First Responder" sceneMemberID="firstResponder"/>

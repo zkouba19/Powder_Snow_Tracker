@@ -8,7 +8,12 @@
 
 import Foundation
 import UIKit
+import CoreLocation
 
 protocol RunResultDelegate: class {
-    
+    func cancelButtonPressed(by controller: RunResultViewController)
+    func saveRun(time: Date, distance: Double, avgspeed: Double, maxSpeed: Double, altitude: Double, absoluteStartLocation: CLLocation, absoluteEndLocation: CLLocation, jumps: Int, biffs: Int)
 }
+
+
+

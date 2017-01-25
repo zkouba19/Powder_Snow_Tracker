@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					6E3A5DAF1E37D34A00D55399 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N9E82N92ZG;
 						ProvisioningStyle = Automatic;
 					};
 					6E3A5DC61E37D34B00D55399 = {
@@ -448,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9E82N92ZG;
 				INFOPLIST_FILE = Powder_Snow_Tracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharykouba.Powder-Snow-Tracker";
@@ -460,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9E82N92ZG;
 				INFOPLIST_FILE = Powder_Snow_Tracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharykouba.Powder-Snow-Tracker";
