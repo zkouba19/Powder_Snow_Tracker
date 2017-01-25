@@ -23,6 +23,7 @@ class RunResultViewController: UIViewController, MKMapViewDelegate, UITableViewD
     var altitude: Double?
     var biffs: Int?
     var time: Date?
+    var userID: Int?
     var titles = ["Distance", "Time", "Altitude Drop", "Jump Count","Biff Count", "Top Speed", "Average Speed"]
     var data = [String]()
 
@@ -117,7 +118,7 @@ class RunResultViewController: UIViewController, MKMapViewDelegate, UITableViewD
     }
     
     @IBAction func saveButtonPressed(_ sender: UIBarButtonItem) {
-        delegate?.saveRun(time: time!, distance: distance!, avgspeed: avgSpeed!, maxSpeed: maxSpeed!, altitude: altitude!, absoluteStartLocation: absoluteStartLocation!, absoluteEndLocation: absoluteEndLocation!, jumps: jumps!, biffs: biffs!)
+        delegate?.saveRun(time: time!, distance: distance!, avgspeed: avgSpeed!, maxSpeed: maxSpeed!, altitude: altitude!, absoluteStartLocation: absoluteStartLocation!, absoluteEndLocation: absoluteEndLocation!, jumps: jumps!, biffs: biffs!, userID: userID!)
     }
     @IBAction func trashButtonPressed(_ sender: UIBarButtonItem) {
         delegate?.cancelButtonPressed(by: self)
