@@ -11,6 +11,7 @@ import CoreMotion
 import CoreFoundation
 import CoreLocation
 
+
 class TrackingViewController: UIViewController, CLLocationManagerDelegate, RunResultDelegate  {
 //    all variables
     // labels
@@ -27,6 +28,7 @@ class TrackingViewController: UIViewController, CLLocationManagerDelegate, RunRe
     var distance: Double = 0
     var maxSpeed: Double = 0
     var currentSpeed: CLLocationSpeed?
+    var userID: Int?
 
     //    managers
     var altimeterManager: CMAltimeter?
@@ -38,8 +40,7 @@ class TrackingViewController: UIViewController, CLLocationManagerDelegate, RunRe
     var startLocation: CLLocation?
     var currentLocation: CLLocation?
     weak var timer: Timer? = nil
-    
-    
+ 
 //  end of variables
 // functions
     func endTimer() {
@@ -66,8 +67,15 @@ class TrackingViewController: UIViewController, CLLocationManagerDelegate, RunRe
         avgSpeedDividedBy = 0
     }
     
-    func saveRun(time: Date, distance: Double, avgspeed: Double, maxSpeed: Double, altitude: Double, absoluteStartLocation: CLLocation, absoluteEndLocation: CLLocation, jumps: Int, biffs: Int){
+    func saveRun(time: Date, distance: Double, avgspeed: Double, maxSpeed: Double, altitude: Double, absoluteStartLocation: CLLocation, absoluteEndLocation: CLLocation, jumps: Int, biffs: Int, userID: Int){
+        var HTTPString = "altitudeDrop=\(altitude)&distance=\(distance)&time=\(time)&topSpeed=\(maxSpeed)&avgSpeed=\(avgspeed)&biffsCount=\(biffs)&jumpsCount=\(jumps)&user=\(userID)"
         
+        
+        
+        
+        
+        
+        // dismiss(animated: true, completion: nil)
     }
     
     // end of delegates
@@ -203,6 +211,7 @@ class TrackingViewController: UIViewController, CLLocationManagerDelegate, RunRe
         RunResultViewController.maxSpeed = maxSpeed
         RunResultViewController.altitude = (altitudeChange*3.280839895) * -1
         RunResultViewController.biffs = biffCount
+        RunResultViewController.userID = userID
     }
     
 }
