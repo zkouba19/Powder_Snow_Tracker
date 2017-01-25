@@ -69,7 +69,7 @@ class TrackingViewController: UIViewController, CLLocationManagerDelegate, RunRe
     
     func saveRun(time: Date, distance: Double, avgspeed: Double, maxSpeed: Double, altitude: Double, absoluteStartLocation: CLLocation, absoluteEndLocation: CLLocation, jumps: Int, biffs: Int, userID: Int){
         var HTTPString = "altitudeDrop=\(altitude)&distance=\(distance)&time=\(time)&topSpeed=\(maxSpeed)&avgSpeed=\(avgspeed)&biffsCount=\(biffs)&jumpsCount=\(jumps)&user=\(userID)"
-        
+        git 
         
         
         
